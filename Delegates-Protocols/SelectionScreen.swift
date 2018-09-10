@@ -15,4 +15,13 @@ class SelectionScreen: UIViewController {
         
     }
     
+    @IBAction func imperialButtonTapped(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
+
+    @IBAction func rebelButtonTapped(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    
 }
