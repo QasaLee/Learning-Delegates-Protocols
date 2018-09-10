@@ -8,6 +8,11 @@
 
 import UIKit
 
+protocol SideSelectionDelegate {
+    func didTapChoice(image: UIImage, sideName: String, backgroundColor: UIColor)
+}
+
+
 class SelectionScreen: UIViewController {
 
     override func viewDidLoad() {

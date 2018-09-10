@@ -9,7 +9,6 @@
 import UIKit
 
 class BaseScreen: UIViewController {
-
     
     @IBOutlet weak var chooseButton: UIButton!
     @IBOutlet weak var mainImageView: UIImageView!
