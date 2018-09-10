@@ -18,8 +18,14 @@ class BaseScreen: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        chooseButton.layer.cornerRadius = chooseButton.frame.height / 2
     }
 
+    @IBAction func chooseButtonTapped(_ sender: UIButton) {
+        let selectionVC = storyboard?.instantiateViewController(withIdentifier: "SelectionScreen") as! SelectionScreen
+        present(selectionVC, animated: true, completion: nil)
+    }
+    
+    
 }
 
