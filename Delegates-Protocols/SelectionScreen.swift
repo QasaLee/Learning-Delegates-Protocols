@@ -13,7 +13,9 @@ protocol SideSelectionDelegate {
 }
 
 
-class SelectionScreen: UIViewController {
+class SelectionScreen: UIViewController { // I am the boss!!!
+    
+    var sideSelectionDelegate: SideSelectionDelegate!
 
     override func viewDidLoad() {
         super.viewDidLoad()
