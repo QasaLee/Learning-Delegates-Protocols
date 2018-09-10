@@ -10,6 +10,9 @@ import UIKit
 
 class BaseScreen: UIViewController {
 
+    // MARK: - Notification Keys
+    let lightNotificationkey = "website.natelee.lighSide"
+    let darkNotificationkey = "website.natelee.darkSide"
     
     @IBOutlet weak var chooseButton: UIButton!
     @IBOutlet weak var mainImageView: UIImageView!
