@@ -23,10 +23,12 @@ class SelectionScreen: UIViewController { // I am the boss!!!
     }
     
     @IBAction func imperialButtonTapped(_ sender: UIButton) {
+        sideSelectionDelegate.didTapChoice(image: UIImage(named: "vader")!, sideName: "Darth Vader", backgroundColor: .red)
         dismiss(animated: true, completion: nil)
     }
 
     @IBAction func rebelButtonTapped(_ sender: UIButton) {
+        sideSelectionDelegate.didTapChoice(image: UIImage(named: "luke")!, sideName: "Luke Skywalker", backgroundColor: .cyan)
         dismiss(animated: true, completion: nil)
     }
     
