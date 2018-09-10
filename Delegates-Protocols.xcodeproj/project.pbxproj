@@ -13,7 +13,7 @@
 		EDB4DBAA1ED104670005E5B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB4DBA91ED104670005E5B3 /* Assets.xcassets */; };
 		EDB4DBAD1ED104670005E5B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB4DBAB1ED104670005E5B3 /* LaunchScreen.storyboard */; };
 		FB5863B92145FBA4000CFDB0 /* SelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5863B82145FBA4000CFDB0 /* SelectionScreen.swift */; };
-		FB5863BB21461BD7000CFDB0 /* NotificationKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5863BA21461BD7000CFDB0 /* NotificationKeys.swift */; };
+		FB5863BB21461BD7000CFDB0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5863BA21461BD7000CFDB0 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		EDB4DBAC1ED104670005E5B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDB4DBAE1ED104670005E5B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5863B82145FBA4000CFDB0 /* SelectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionScreen.swift; sourceTree = "<group>"; };
-		FB5863BA21461BD7000CFDB0 /* NotificationKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationKeys.swift; sourceTree = "<group>"; };
+		FB5863BA21461BD7000CFDB0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			children = (
 				EDB4DBA21ED104670005E5B3 /* AppDelegate.swift */,
 				EDB4DBA41ED104670005E5B3 /* BaseScreen.swift */,
-				FB5863BA21461BD7000CFDB0 /* NotificationKeys.swift */,
+				FB5863BA21461BD7000CFDB0 /* Constants.swift */,
 				FB5863B82145FBA4000CFDB0 /* SelectionScreen.swift */,
 				EDB4DBA61ED104670005E5B3 /* Main.storyboard */,
 				EDB4DBA91ED104670005E5B3 /* Assets.xcassets */,
@@ -144,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB5863BB21461BD7000CFDB0 /* NotificationKeys.swift in Sources */,
+				FB5863BB21461BD7000CFDB0 /* Constants.swift in Sources */,
 				EDB4DBA51ED104670005E5B3 /* BaseScreen.swift in Sources */,
 				EDB4DBA31ED104670005E5B3 /* AppDelegate.swift in Sources */,
 				FB5863B92145FBA4000CFDB0 /* SelectionScreen.swift in Sources */,
