@@ -22,13 +22,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="J3w-7u-Mqk">
-                                <rect key="frame" x="16" y="20" width="343" height="285"/>
+                                <rect key="frame" x="16" y="20" width="343" height="360"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="285" id="07w-Sm-Eb2"/>
+                                    <constraint firstAttribute="height" constant="360" id="07w-Sm-Eb2"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nEY-Vf-0qj">
-                                <rect key="frame" x="187.5" y="313" width="0.0" height="0.0"/>
+                                <rect key="frame" x="187.5" y="416" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -53,7 +53,7 @@
                             <constraint firstItem="HVL-zl-CHC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7kq-yP-QPP"/>
                             <constraint firstItem="J3w-7u-Mqk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="DL9-Y1-Dgs"/>
                             <constraint firstItem="J3w-7u-Mqk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Q35-4e-2C7"/>
-                            <constraint firstItem="nEY-Vf-0qj" firstAttribute="top" secondItem="J3w-7u-Mqk" secondAttribute="bottom" constant="8" symbolic="YES" id="VSB-jy-jNO"/>
+                            <constraint firstItem="nEY-Vf-0qj" firstAttribute="top" secondItem="J3w-7u-Mqk" secondAttribute="bottom" constant="36" id="VSB-jy-jNO"/>
                             <constraint firstItem="nEY-Vf-0qj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wZ3-OS-gof"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HVL-zl-CHC" secondAttribute="bottom" constant="81" id="xEd-6A-woV"/>
                         </constraints>
