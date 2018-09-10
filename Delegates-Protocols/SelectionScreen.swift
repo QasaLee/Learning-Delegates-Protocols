@@ -16,10 +16,13 @@ class SelectionScreen: UIViewController {
     }
     
     @IBAction func imperialButtonTapped(_ sender: UIButton) {
+        
+        NotificationCenter.default.post(name:  Notification.Name(rawValue: NotificationKeys.darkNotificationkey), object: nil)
         dismiss(animated: true, completion: nil)
     }
 
     @IBAction func rebelButtonTapped(_ sender: UIButton) {
+        NotificationCenter.default.post(name:  Notification.Name(rawValue: NotificationKeys.lightNotificationkey), object: nil)
         dismiss(animated: true, completion: nil)
     }
     
