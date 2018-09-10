@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.13.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.9"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -29,7 +28,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQ7-jf-iNe">
-                                <rect key="frame" x="57" y="550" width="260" height="50"/>
+                                <rect key="frame" x="57.5" y="550" width="260" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="OvI-3z-xym"/>
@@ -88,7 +87,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Your Side" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wFt-Bv-Mil">
-                                <rect key="frame" x="59" y="50" width="256" height="35"/>
+                                <rect key="frame" x="59.5" y="50" width="256" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="256" id="0qz-z9-DIL"/>
                                     <constraint firstAttribute="height" constant="35" id="R6c-PI-FD4"/>
@@ -98,7 +97,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="imW-A8-Vt3">
-                                <rect key="frame" x="112" y="178.5" width="150" height="150"/>
+                                <rect key="frame" x="112.5" y="178.5" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="81S-zL-PPj"/>
                                     <constraint firstAttribute="width" constant="150" id="SEo-sW-D8k"/>
@@ -109,7 +108,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAP-aN-SPK">
-                                <rect key="frame" x="112" y="374" width="150" height="150"/>
+                                <rect key="frame" x="112.5" y="374" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="LDc-7s-IWd"/>
                                     <constraint firstAttribute="width" constant="150" id="XwS-vX-1Jv"/>
@@ -137,8 +136,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="imperial" width="150" height="150"/>
-        <image name="logo" width="1000" height="427"/>
-        <image name="rebel" width="512" height="512"/>
+        <image name="imperial" width="72" height="72"/>
+        <image name="logo" width="2000" height="855"/>
+        <image name="rebel" width="294.9119873046875" height="294.9119873046875"/>
     </resources>
 </document>

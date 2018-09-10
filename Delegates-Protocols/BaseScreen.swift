@@ -26,7 +26,7 @@ class BaseScreen: UIViewController {
     }
 }
 
-
+ 
 extension BaseScreen: SideSelectionDelegate {
     
     func didTapChoice(image: UIImage, name: String, color: UIColor) {
